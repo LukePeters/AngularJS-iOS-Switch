@@ -41,6 +41,19 @@ a:hover {
 	color: #BF2414;
 }
 
+a.alt, a.alt:visited {
+	text-decoration: none;
+}
+
+a.alt:hover {
+	text-decoration: underline;
+}
+
+.sep {
+	padding: 0 .82em;
+	color: rgba(0,0,0,0.34);
+}
+
 .wrapper {
 	margin: 0 auto;
 	padding: 40px 20px;
