@@ -33,6 +33,14 @@ p + .iosSwitch {
 	margin-top: 2px;
 }
 
+a, a:visited {
+	color: #e74c3c;
+}
+
+a:hover {
+	color: #BF2414;
+}
+
 .wrapper {
 	margin: 0 auto;
 	padding: 40px 20px;
