@@ -1,0 +1,40 @@
+html {
+	min-height: 100%
+}
+
+body {
+	min-height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	color: #4C525A;
+	background: #f4fbff;
+	background: -moz-linear-gradient(top, #f4fbff 0%, #e5f5ff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4fbff), color-stop(100%,#e5f5ff));
+	background: -webkit-linear-gradient(top, #f4fbff 0%,#e5f5ff 100%);
+	background: -o-linear-gradient(top, #f4fbff 0%,#e5f5ff 100%);
+	background: -ms-linear-gradient(top, #f4fbff 0%,#e5f5ff 100%);
+	background: linear-gradient(to bottom, #f4fbff 0%,#e5f5ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4fbff', endColorstr='#e5f5ff',GradientType=0 );
+}
+
+h1 {
+	margin: 0 0 1em;
+	font-size: 34px;
+	font-weight: 300;
+	color: #4C525A;
+}
+
+p {
+	margin: 0 0 1.2em;
+}
+
+p + .iosSwitch {
+	margin-top: 2px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 40px 20px;
+	max-width: 600px;
+}

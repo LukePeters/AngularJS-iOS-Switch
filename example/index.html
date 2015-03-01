@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>AngularJS iOS Switch - Example</title>
+	
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="../ios-switch.css">
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body ng-app="app">
+
+	<div class="wrapper" ng-controller="postCtrl">
+
+		<h1>AngularJS iOS Switch</h1>
+
+		<p>This is a simple AngularJS directive that creates an iOS-styled switch that can be toggled on and off. The switch is tied to a model - in this example, the <strong>published</strong> property on the <strong>post</strong> model.</p>
+
+		<p><em>The post is currently published: <strong>{{ post.published }}</strong></em></p>
+
+		<span class="iosSwitch" ng-model="post.published" ng-class="{checked: post.published}" ng-click="post.published = !post.published" ios-switch></span>
+
+	</div>
+
+
+	<script src="jquery.min.js"></script>
+	<script src="angular.min.js"></script>
+	<script src="angular.sanitize.js"></script>
+	<script src="app.js"></script>
+	<script src="postControllers.js"></script>
+	<script src="../ios-switch-directive.js"></script>
+
+</body>
+</html>
