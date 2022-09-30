@@ -2,6 +2,8 @@
 
 A simple AngularJS directive which creates an iOS-styled switch. The switch is connected to a data model and can be toggled on and off.
 
+Try it out: [Demo](https://labs.lukepeters.me/angularjs-ios-switch/example/)
+
 ## Usage
 
 1. Include the **ios-switch.css** file in your page.
